@@ -1,6 +1,19 @@
 {
     "schemaVersion": "1.0",
     "artifacts": {
+        "mint": {
+            "type": "executable",
+            "version": "0.17.0",
+            "variants": [
+                {
+                    "path": "mint-0.17.0-macos/bin/mint",
+                    "supportedTriples": [
+                        "x86_64-apple-macosx",
+                        "arm64-apple-macosx"
+                    ]
+                }
+            ]
+        },
         "swiftgen": {
             "type": "executable",
             "version": "6.5.1",
